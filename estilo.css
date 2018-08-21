@@ -1,0 +1,25 @@
+ 
+
+table, tr, td   {
+    border: 2px solid black;
+    border-collapse: collapse; 
+}
+
+
+table tr:first-child{
+    background-color: gray;
+}
+
+table tr:nth-child(2) td:nth-child(1),
+table tr:nth-child(3) td:nth-child(1),
+table tr:nth-child(2) td:nth-child(5),
+table tr:nth-child(3) td:nth-child(5),
+table tr:nth-child(6) td:nth-child(3),
+table tr:nth-child(7) td:nth-child(3)
+{
+    background-color: dodgerblue;
+}
+
+table{
+    font-size: 35px;
+}
